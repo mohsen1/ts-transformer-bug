@@ -1,0 +1,15 @@
+{
+    "name": "ts-transformer-bug",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:mohsen1/ts-transformer-bug.git",
+    "license": "MIT",
+    "scripts": {
+        "test": "ts-node index.ts"
+    },
+    "dependencies": {
+        "@types/node": "^10.1.2",
+        "ts-node": "^6.0.3",
+        "typescript": "^2.8.3"
+    }
+}

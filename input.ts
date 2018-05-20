@@ -1,0 +1,1 @@
+const foo = 'a simple statement';
