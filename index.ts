@@ -40,7 +40,7 @@ const AddVarStatement: ts.TransformerFactory<ts.SourceFile> = context => sourceF
 const AddTypeToVarStatement: ts.TransformerFactory<ts.SourceFile> = context => sourceFile => {
     for (const statement of sourceFile.statements) {
         // getText() will throw. commenting out the first transformer from list of transformers in line 15 will resolve it
-        console.log("statement text:", statement.getText());
+        console.log("statement text:", getTextOfNode());
     }
     return sourceFile;
 };
