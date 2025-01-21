@@ -8,7 +8,7 @@
         "test": "ts-node index.ts"
     },
     "dependencies": {
-        "@types/node": "^10.3.2",
+        "@types/node": "^10.17.60",
         "ts-node": "^6.1.0",
         "typescript": "^2.9.1"
     }
